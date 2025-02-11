@@ -63,9 +63,11 @@ This will remove the generated kernel object files and other build artifacts.
 
 ### Example Output
 When the module is loaded, it will print the following message to the kernel log:
+
 Saying Hello from Proxy_021 ...
 
 When the module is unloaded, it will print the following message to the kernel log:
+
 Good bye ! Finally You Runned Your First kernel!!
 
 Video Demonstration
