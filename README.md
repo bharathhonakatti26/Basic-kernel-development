@@ -16,6 +16,16 @@ This is a simple Linux kernel module that prints messages to the kernel log when
 
 ## Usage
 
+### Prerequisites
+
+Before building the module, ensure your system is up to date and has the necessary packages installed:
+
+```sh
+sudo apt update
+sudo apt upgrade
+sudo apt install -y build-essential linux-headers-$(uname -r) kmod
+```
+
 ### Building the Module
 To build the kernel module, run the following command:
 
